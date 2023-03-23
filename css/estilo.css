@@ -1,5 +1,29 @@
-header{
-    background-color: yellow;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-color: yellowgreen;
     height: 80px;
-    width: 80%;
+    width: 100%;
+    margin: auto;
+    /* sirve para centrar la porqueria esta */
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+footer{
+    /* verificar cuando agregue contenido a la clase contenido */
+    height: 60px;
+    width: 100%;
+    background-color: rgb(7, 121, 115);
+    position: fixed;
+    bottom: 0;
 }
