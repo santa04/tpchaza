@@ -1,29 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Yeseva+One&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
-
+.yeseva{
+    font-family: 'Yeseva ONE', cursive;
+}
 header {
-    background-color: yellowgreen;
+    background-color: rgb(173, 42, 199);
     height: 80px;
     width: 100%;
+    font-size: 30pt;
     margin: auto;
     /* sirve para centrar la porqueria esta */
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-body {
-    background-color: black;
+header .marca{
     color: white;
+    font-size: 20pt;
+}
+header .social{
+    font-size: 26pt;
+    
+}
+.social a{
+    text-decoration: none;
+    margin: 0 10px;
+    text-shadow: 2px 2px;
+    color: rgb(104, 0, 99);
+}
+.social a:hover{
+    color: transparent
+}
+.card{
+    position: relative;
+    width: 30%;
+    height: 550px;
+    background-color: rgb(170, 9, 162);
+    padding: 20px;
+    border-radius: 20px;
+}
+.card .imagen{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.card .titulo{
+    font-size: 18pt;
+}
+.card .boton{
+    position: absolute;
+    top: 495px;
+    right: 20px;
+    background-color: aqua;
+    padding: 3px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 12pt;
+    font-family: 'Alkatra';
+    
 }
 
 footer{
     /* verificar cuando agregue contenido a la clase contenido */
-    height: 60px;
-    width: 100%;
+    height: 80px;
+    width: 80%;
     background-color: rgb(7, 121, 115);
     position: fixed;
     bottom: 0;
+}
+
+body {
+    background-color: rgb(122, 41, 91);
+    color: white;
+    font-family: 'Alkatra', cursive;
+    height: 80px;
+    width: 80%;
+    margin: auto;
 }
