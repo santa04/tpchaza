@@ -1,0 +1,29 @@
+@media screen and (max-width:662px){
+
+    .contenido{
+        width: 100%;
+        height: auto;
+    }
+    .contenedor {
+        padding: 40px;
+        flex-direction: column;
+    }
+    .card{
+        flex: 1 0 auto;
+    }
+    footer h1{
+        font-size: 12pt;
+    }
+    /*.hide_mobile{
+        display:none; /*oculta weas en modo celu
+    }*/
+
+    header .marca, header .social{
+        font-size: 14pt;
+    }
+header{
+    height: 70px;
+    padding: 0 20px;
+}
+
+}
