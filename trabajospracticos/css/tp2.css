@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Yeseva+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.yeseva{
+    font-family: 'Yeseva ONE', cursive;
+}
+.portada{
+    background-color: aqua;
+    padding: 20px;
+}
+.menu{
+    background-color: salmon;
+    padding: 20px;
+}
+.productos{
+    background-color: aquamarine;
+    padding: 20px;
+}
+body {
+    background-color: black;
+}
