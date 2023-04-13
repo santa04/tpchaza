@@ -4,9 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all 0.15s ease-in-out;
 }
 .yeseva{
     font-family: 'Yeseva ONE', cursive;
+}
+.mensaje{
+    box-shadow: 0 18px 20px black;
 }
 .portada{
     position: relative;
@@ -46,6 +50,18 @@
 .busqueda input[type="search"]{
     height: 100%;
     width: calc(100% - 120px);
+    border: none;
+    padding: 0 20px;
+    font-size: 12pt;
+}
+.busqueda input[type="search"]:focus{
+    font-size: 14pt;
+    transition: all 0.15s ease-in-out;
+}
+.busqueda input[type="submit"]{
+    height: 60px;
+    width: 60px;
+    outline: none;
     border: none;
 }
 .menu{
